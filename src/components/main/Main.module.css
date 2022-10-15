@@ -1,0 +1,58 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+.wrapper button{
+width: 132.63px;
+height: 46px;
+background: #F9F9F9;
+border-radius: 30px;
+border: none;
+margin-right: 7px;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.015em;
+color: #2C2C2C;
+}
+.sort{
+    position: relative;
+}
+.sort img{
+    margin-right: 7px;
+}
+.sort_popup{
+    position: absolute;
+    right: 0;
+    margin-top: 15px;
+    background: #FFFFFF;
+box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+border-radius: 10px;
+width: 160px;
+padding: 10px 0;
+overflow: hidden;
+}
+.sort_popup ul{
+    overflow: hidden;
+    padding-left: 0;
+}
+.sort_popup ul li{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.sort_popup ul li .active, 
+.sort_popup ul li:hover{
+    background: rgba(254, 95, 30, 0.05);
+}
+.sort_popup ul li.active{
+    font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+letter-spacing: 0.015em;
+color: #FE5F1E;
+}
