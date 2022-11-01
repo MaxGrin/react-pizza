@@ -10,7 +10,19 @@ const Main = () =>{
         <div>
           <div className={moduleCss.wrapper}>
             <Categories items={items} />
-            
+        
+        <div className={moduleCss.sort}>
+            <img src={arrowUpSort} alt="" />
+            <span>Сортировка по: </span>
+            <span>популярности</span>
+            <div className={moduleCss.sort_popup}>
+                <ul>
+                    <li>популярности</li>
+                    <li>цене</li>
+                    <li>алфавиту</li>
+                </ul>
+            </div>
+        </div>
         </div>
         <div>
             <h1>Все пиццы</h1>
@@ -39,7 +51,7 @@ const Main = () =>{
                     <span></span>
                 </div>
                    <h4></h4>
-                   <button></button>
+                   <button>Добавить</button>
             </div>
 
             <div>
@@ -53,7 +65,7 @@ const Main = () =>{
                     <span></span>
                 </div>
                    <h4></h4>
-                   <button></button>
+                   <button>Добавить</button>
             </div>
 
             <div>
@@ -67,7 +79,7 @@ const Main = () =>{
                     <span></span>
                 </div>
                    <h4></h4>
-                   <button></button>
+                   <button>Добавить</button>
             </div>
 
             <div>
@@ -81,7 +93,7 @@ const Main = () =>{
                     <span></span>
                 </div>
                    <h4></h4>
-                   <button></button>
+                   <button>Добавить</button>
             </div>
 
             <div>
@@ -95,7 +107,7 @@ const Main = () =>{
                     <span></span>
                 </div>
                    <h4></h4>
-                   <button></button>
+                   <button>Добавить</button>
             </div>
 
             <div>
@@ -109,7 +121,7 @@ const Main = () =>{
                     <span></span>
                 </div>
                    <h4></h4>
-                   <button></button>
+                   <button>Добавить</button>
             </div>
 
             <div>
@@ -123,7 +135,7 @@ const Main = () =>{
                     <span></span>
                 </div>
                    <h4></h4>
-                   <button></button>
+                   <button>Добавить</button>
             </div>
 
            
